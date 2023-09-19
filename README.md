@@ -1,5 +1,5 @@
 ## Personal Homepage
-# cerko12.github.io
+# https://cerko12.github.io/
 # Author: Congkai Sun
 # Class Link: https://johnguerra.co/classes/webDevelopment_fall_2023/
 # Project Objective: Personal Homepage which contains personal info and preferences. 
