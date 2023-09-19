@@ -1,7 +1,8 @@
-# congkaisun.github.io
+## Personal Homepage
+# cerko12.github.io
 # Author: Congkai Sun
 # Class Link: https://johnguerra.co/classes/webDevelopment_fall_2023/
-# Project Objective: Homepage
-# Instruction: This is Congkai Sun's homepage.
+# Project Objective: Personal Homepage which contains personal info and preferences. 
+# Instruction: Enter the link in the browser.
 # Screenshot: 
-![homepage](https://github.com/CERKO12/CERKO12.github.io/assets/117726096/ce3bbe39-6eba-44c5-8cc2-d25b67c271e8)
+![home](https://github.com/CERKO12/Fake-Job-Prediction/assets/117726096/819c0dfe-32a9-42b1-82e3-f30a061c76c1)
