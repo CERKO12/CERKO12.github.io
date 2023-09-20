@@ -1,6 +1,5 @@
 # Personal Homepage:
 #### https://cerko12.github.io/
-#### Based on HTML, CSS,and JavaScript
 
 # Author: 
 #### Congkai Sun
@@ -29,7 +28,7 @@
 
 # Presentation:
 [Slides_Homepage.pdf](https://github.com/CERKO12/CERKO12.github.io/files/12668322/Slides_Homepage.pdf)
-https://github.com/CERKO12/CERKO12.github.io/assets/117726096/8b104182-1e8a-4c06-8ef3-437432568313
+#### https://github.com/CERKO12/CERKO12.github.io/assets/117726096/8b104182-1e8a-4c06-8ef3-437432568313
 
 # Screenshot: 
 ![home](https://github.com/CERKO12/CERKO12.github.io/assets/117726096/c6274c16-3b64-453f-afae-5c64873fd4d9)
