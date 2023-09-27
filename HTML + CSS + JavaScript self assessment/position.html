@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            position: relative; /* For the absolute positioned box */
+            min-height: 100vh;  /* To make sure the body occupies full viewport height */
+            padding-bottom: 60px; /* To prevent overlap with footer */
+        }
+
+        /* Static positioning: Default behavior */
+        .static-box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 20px;
+        }
+
+        /* Relative positioning: Moved 30px down and 30px right from its normal position */
+        .relative-box {
+            position: relative;
+            top: 30px;
+            left: 30px;
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            margin: 20px;
+        }
+
+        /* Absolute positioning: Positioned at the bottom right of the body */
+        .absolute-box {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+        }
+
+        /* Fixed positioning: Fixed at the top right of the viewport */
+        .fixed-box {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: lightyellow;
+        }
+
+        /* Footer fixed at the bottom */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="static-box">Static</div>
+    <div class="relative-box">Relative</div>
+    <div class="absolute-box">Absolute</div>
+    <div class="fixed-box">Fixed</div>
+    <footer>Footer</footer>
+</body>
+</html>
