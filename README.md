@@ -5,8 +5,8 @@ https://cerko12.github.io/
 Congkai Sun
 
 # Class Link: 
-https://johnguerra.co/classes/webDevelopment_fall_2023/
-Instructor: John Alexis Guerra Gómez
+* https://johnguerra.co/classes/webDevelopment_fall_2023/
+* Instructor: John Alexis Guerra Gómez
 
 # Project Objective: 
 Build a personal homepage that contains personal information and preferences. The code needs to be formatted by prettier and checked by eslint. Also, the website should be W3C Compliant.
@@ -16,7 +16,7 @@ Build a personal homepage that contains personal information and preferences. Th
 
 # Instruction (View and Install): 
 1. Access it by the link above.
-2. 2. Clone this repo, then run the local server or open the index page in the browser.
+2. Clone this repo, then run the local server or open the index page in the browser.
 
 # Features:
 1. Home Page (index.html) -- Common details about the personal information and contact information.
