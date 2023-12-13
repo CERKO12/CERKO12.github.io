@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cheatsheet/">
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="imputation.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -1216,7 +1216,7 @@
               <div class="bd-example">
               <figure class="figure">
                 <figure class="figure">
-                  <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="../fig/Distribution_of_Imputed&Original_Dataset.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
+                  <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="fig/Distribution_of_Imputed&Original_Dataset.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
               </figure>
               </div>
             </div>
@@ -1226,7 +1226,7 @@
               <div class="bd-example">
               <figure class="figure">
                 <figure class="figure">
-                  <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="../fig/Distribution_of_Imputed&Original_Dataset_2.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
+                  <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="fig/Distribution_of_Imputed&Original_Dataset_2.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
               </figure>
               </div>
             </div>
@@ -1243,7 +1243,7 @@
               <div class="bd-example">
               <figure class="figure">
                 <figure class="figure">
-                  <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="../fig/Density_Plots.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
+                  <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="fig/Density_Plots.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
               </figure>
               </div>
             </div>
@@ -1624,7 +1624,7 @@
             <div class="bd-example">
             <figure class="figure">
               <figure class="figure">
-                <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="../fig/ROC_Simple_Imputed.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
+                <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="fig/ROC_Simple_Imputed.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
             </figure>
             <p>The curves suggest that the model has varying degrees of discriminative ability across different classes. Some classes (like Class 3018003) exhibit very high AUC scores close to 0.98, indicating excellent model performance. In contrast, other classes (like Class 3018001) have 
                lower AUC scores, implying a lower true positive rate at the same false positive rate levels. Overall, the model shows good performance on the imputed data, but there is room for improvement in certain classes.
@@ -1637,7 +1637,7 @@
             <div class="bd-example">
             <figure class="figure">
               <figure class="figure">
-                <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="../fig/ROC_Original.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
+                <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="fig/ROC_Original.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
             </figure>
             <p>
               The ROC curves for the original dataset show that the model performs well, with some classes reaching AUC scores of 0.99. This high performance might be due to the model learning from the actual, although incomplete, data distribution without any imputation bias. However, the performance 
@@ -1651,7 +1651,7 @@
             <div class="bd-example">
             <figure class="figure">
               <figure class="figure">
-                <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="../fig/ROC_Model_MICE&MissForest_Imputed.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
+                <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="fig/ROC_Model_MICE&MissForest_Imputed.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
             </figure>
             <p>
               The ROC curves for the model-imputed dataset generally exhibit high AUC scores, with most of them over 0.90, which indicates a strong predictive performance. This suggests that the imputation technique used here might be well-suited for the dataset, preserving important relationships 
@@ -1665,7 +1665,7 @@
             <div class="bd-example">
             <figure class="figure">
               <figure class="figure">
-                <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="../fig/ROC_Model_MICE_Imputed.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
+                <img class="bd-placeholder-img figure-img img-fluid rounded" width="1200" height="800" src="fig/ROC_Model_MICE_Imputed.png" role="img" aria-label="Distribution of Imputed and Original Dataset">
             </figure>
             <p>
               The ROC curve for the dataset imputed with MICE alone also demonstrates high area under the curve (AUC) values as combined MICE & MissForest imputation dataset, suggesting strong predictive capabilities. Both methods provide robust predictions, as indicated by their respective 
@@ -1727,7 +1727,7 @@
       </div>
     </footer>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="imputation.js"></script>
   </body>
 </html>
